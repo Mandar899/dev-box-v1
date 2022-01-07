@@ -2,10 +2,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="sticky top-0 shadow flex md:flex-row justify-evenly items-center z-50 pt-[12px] pb-[12px] bg-white">
+    <nav className="bg-black flex md:flex-row items-start px-2 md:pl-5  md:items-center z-50 pt-[12px] pb-[12px]">
       {/* logo */}
       <div className="flex items-center cursor-pointer">
-        <a className="font-bold text-6xl md:text-4xl text-[#188038]">Dev Box</a>
+        <a className="font-bold text-white text-7xl md:text-4xl"> Dev Box</a>
       </div>
 
       {/* nav options */}
