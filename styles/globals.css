@@ -11,3 +11,9 @@ html {
   font-family: "Product Sans";
   src: url("/public/fonts/Product\ Sans\ Regular.ttf");
 }
+
+@layer base {
+  .center {
+    @apply flex items-center justify-center text-center shadow-xl rounded-md md:text-lg;
+  }
+}
